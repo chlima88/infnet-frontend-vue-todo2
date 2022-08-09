@@ -20,7 +20,7 @@
       <li
         class="default-li"
         v-for="(task, index) in filteredTaskList"
-        :key="task.key"
+        :key="index"
       >
         <div class="task">
           <input type="checkbox" v-model="task.done" :id="task.text">
@@ -53,7 +53,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 
 
 const taskInput = ref('')
@@ -89,7 +89,6 @@ const updateTask = (task) => {
 
 const deleteTask = (index) => {
   filteredTaskList.value.splice(index,1)
-  //taskList.splice(index,1)
 }
 
 const toggleEdit = (text) => {
