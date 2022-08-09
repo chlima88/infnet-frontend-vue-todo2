@@ -1,7 +1,35 @@
-# Vue 3 + Vite
+# Live demo 🔥
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+https://todoapp2-chlima.nelify.app
 
-## Recommended IDE Setup
+# Technologies
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- Vue3
+- Vite
+- Tailwindcss
+
+# Installation
+
+Clone this repo
+
+```
+git clone https://github.com/chlima88/infnet-frontend-vue-todo2.git
+```
+
+Install dependencies
+
+```
+yarn
+```
+
+Developer mode
+
+```
+yarn dev
+```
+
+Build
+
+```
+yarn build
+```
