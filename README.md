@@ -1,6 +1,6 @@
 # Live demo 🔥
 
-https://todoapp2-chlima.nelify.app
+https://todoapp2-chlima.netlify.app
 
 # Technologies
 
